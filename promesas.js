@@ -5,15 +5,15 @@
 // simulacion base de datos 
 let empleados = [{
         id: 1,
-        nombre: "Santiago"
+        nombre: "Gabriel"
     },
     {
         id: 2,
-        nombre: "Wendy"
+        nombre: "Wilson"
     },
     {
         id: 3,
-        nombre: "Leo"
+        nombre: "Ricardo"
     }
 ];
 
