@@ -3,19 +3,17 @@
     Nombre:  Gabriel Cacuango
 */
 
-/*
-Funcioes normales :
- let sumar = (a, b) => {
+
+//Funcioes normales :
+/*  let sumar = (a, b) => {
     return a + b;
 } */
 // funcion flecha:
+/* function saludar() {
+    return
+} */
 let sumar = (a, b) => a + b;
 console.log(`la suma de 3 + 4 = ${sumar(3,4)}`);
-
-
-/* function saludar() {
-return
-} */
 let saludo = (nombre) => ("Hola " + nombre);
 console.log(`Probando mensaje: ${saludo("rodrigo")}`);
 

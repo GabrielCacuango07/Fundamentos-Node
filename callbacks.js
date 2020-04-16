@@ -20,15 +20,13 @@ let getUsuarioById = (id, nickname, callback) => {
             // se debe mandar un null siemre  enviando primero el error 
             callback(null, usuario, 25, 'extra');
         }
-
-
     }
     // cuando se utiliza callbacks  de debe enviar err por estandar 
-getUsuarioById(29, 'Gabriel', (err, usuario, edad, dato) => {
+getUsuarioById(20, 'Gabriel', (err, usuario, edad, dato) => {
     // si me da un error lo muestro en antalla 
     if (err) {
         return console.log(err);
     }
     // si no existe error devuelve  mensaje con un objeto  que es usuario concatenado con la 
-    console.log("Usuario de la BD:", usuario, `edad: ${edad} parametro extra${dato}`);
+    console.log("Usuario de la BD:", usuario, `\n edad: ${edad} parametro extra${dato}`);
 });

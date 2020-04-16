@@ -71,7 +71,7 @@ let getSalario = (empleado) => {
 
 // evita acumular los errores  y atrapa a todos en un cacht
 
-getEmpleado(2).then(empleado => {
+getEmpleado(10).then(empleado => {
     return getSalario(empleado);
 }).then(resp => {
     console.log(`El salario de ${resp.nombre} es de ${resp.salario}`);
